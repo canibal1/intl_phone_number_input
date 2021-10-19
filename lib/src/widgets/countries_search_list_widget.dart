@@ -52,7 +52,7 @@ class _CountrySearchListWidgetState extends State<CountrySearchListWidget> {
   /// Returns [InputDecoration] of the search box
   InputDecoration getSearchBoxDecoration() {
     return widget.searchBoxDecoration ??
-        InputDecoration(labelText: widget.locale== "tr" ? 'Search by country name or dial code':'Search by country name or dial code');
+        InputDecoration(labelText: widget.locale== "tr" ? 'Ülke adına veya arama koduna göre arama yapın':'Search by country name or dial code');
   }
 
   @override
